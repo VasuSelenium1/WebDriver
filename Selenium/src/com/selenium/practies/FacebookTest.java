@@ -14,7 +14,7 @@ public class FacebookTest {
 		driver.findElement(By.id("email")).sendKeys("Selenium");
 		driver.findElement(By.id("pass")).sendKeys("Selenium");
 		driver.findElement(By.id("loginbutton")).click();
-
+System.out.println("Done");
 	}
 
 }
